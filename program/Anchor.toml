@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+marmot_network = "JkTuLCESE1jLwBrGHBdbv1qx8oTsD5FHw4EgMLvbHam"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/brandon/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
